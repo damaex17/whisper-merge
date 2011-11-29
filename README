@@ -1,0 +1,3 @@
+- will integrate the values of one whisper fixed size DB file into the other one.
+- will only transfer values if value != None
+- extensive testing before merge is recommended
