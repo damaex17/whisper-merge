@@ -1,3 +1,5 @@
-- will integrate the values of one whisper fixed size DB file into the other one.
+- http://graphite.wikidot.com/whisper
+- will integrate the values of one whisper fixed size DB file into another one.
 - will only transfer values if value != None
 - extensive testing before merge is recommended
+- backup files of the modified files are generated
