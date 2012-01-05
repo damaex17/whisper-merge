@@ -9,7 +9,7 @@ epoch = 0
 option_parser = OptionParser(usage='''%prog [options] path1 path2''')
 option_parser.add_option('--from', default=epoch, type='int', dest='_from',
   help=("Unix epoch time of the beginning of "
-        "your requested interval (default: 24 hours ago)"))
+        "your requested interval (default: epoch)"))
 option_parser.add_option('--until', default=now, type='int',
   help="Unix epoch time of the end of your requested interval (default: now)")
 
